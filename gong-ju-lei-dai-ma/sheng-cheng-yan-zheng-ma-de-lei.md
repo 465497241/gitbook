@@ -1,4 +1,4 @@
-```
+```php
 <?php
 // +----------------------------------------------------------------------
 // | ThinkPHP [ WE CAN DO IT JUST THINK IT ]
@@ -116,7 +116,7 @@ class Image {
                         //$waterMark=imagecolorallocatealpha($text,255,255,0,50);
                         $imgW = $info["width"];
                         $imgH = $info["width"] * $textInfo["height"] / $textInfo["width"];
-                        //$y  =	($info["height"]-$textInfo["height"])/2;
+                        //$y  =    ($info["height"]-$textInfo["height"])/2;
                         //设置水印的显示位置和透明度支持各种图片格式
                         imagecopymerge($im, $waterMark, $x, $y, 0, 0, $textInfo['width'], $textInfo['height'], $alpha);
                     } else {
