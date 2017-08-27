@@ -1,0 +1,17 @@
+原贴地址\(在码云\):https://git.oschina.net/ucdn/codes/2oy5crpuef190vambhdzk29
+
+```
+<?php
+header("Content-Type: text/html; charset=UTF-8");
+date_default_timezone_set("PRC");
+// error_reporting(0);
+
+// 生成ID：Unix时间戳+毫秒+微妙+四位随机数字（20位数字，2028/06/15 前可存入MySQL，数据类型：BIGINT）
+$id = microtime();
+$id = substr($id, 11) . substr($id, 2, 6) . mt_rand(1000, 9999);
+```
+
+
+
+
+
