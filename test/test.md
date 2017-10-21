@@ -1,0 +1,4 @@
+&lt;?php
+
+echo phpinfo\(\);
+
