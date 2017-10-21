@@ -1,6 +1,4 @@
-&lt;?php
-
-echo phpinfo\(\);
+tets
 
 123
 
