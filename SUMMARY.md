@@ -31,6 +31,7 @@
   * [PHP获取手机相关信息](gong-ju-lei-dai-ma/phphuo-qu-shou-ji-xiang-guan-xin-xi.md)
   * [字符串截取](gong-ju-lei-dai-ma/zi-fu-chuan-jie-qu.md)
   * [ThinkPHP框架下登录页](gong-ju-lei-dai-ma/thinkphpkuang-jia-xia-deng-lu-ye.md)
+  * [从网页中提取关键字](gong-ju-lei-dai-ma/cong-wang-ye-zhong-ti-qu-guan-jian-zi.md)
 * [微信](wei-xin.md)
   * [微信获取access\_token](wei-xin/wei-xin-huo-qu-access-token.md)
   * [获取用户基本信息](wei-xin/huo-qu-yong-hu-ji-ben-xin-xi.md)
