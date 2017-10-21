@@ -8,6 +8,7 @@ function to_slash($array)
     return $tmp;
 }
 
+
 原理：
 
 
@@ -26,5 +27,7 @@ array_walk($array,create_function('&$v','$v=ucwords($v);'));
 $str = implode('',$array);
 // 首字母转小写
 $str{0} = strtolower($str{0})
-
 ```
+
+
+
