@@ -1,7 +1,7 @@
 ```php
 <?php     
     /***
-    * 生成excle文件
+    * 生成excle文件 
     ***/
     $time = time(); 
     $filename = date("Y年m月d日h点m分s秒", $time).'问卷数据';
